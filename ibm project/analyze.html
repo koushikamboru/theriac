@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anatomy Analysis</title>
+    <link rel="stylesheet" href="./analyze.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#analyze">Analyze</a></li>
+          <li><a href="#help">Help</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="anat_info">
+        <h1>Anatomy Analysis</h1>
+        <p>
+          Welcome to the Anatomy Analysis page. Here you can find detailed
+          images of human anatomy for educational purposes. Understanding the
+          human body is crucial for various fields such as medicine, physiology,
+          and more.
+        </p>
+        <p>
+          Explore the images below to learn about the anatomical differences
+          between male and female bodies. Hover over the images to see the
+          enhanced effect.
+        </p>
+      </div>
+      <div class="anatimg">
+        <div class="maleanatimg">
+          <!-- <a href="maleanatomy.html"
+            ><img src="./male-removebg-preview.png" alt="Male Anatomy"
+          /></a> -->
+         
+          <img src="male-removebg-preview.png" usemap="#image-map" />
+
+          <map name="image-map">
+            <area
+              target=""
+              alt="Head"
+              title=""
+              href="head.html"
+              coords="115,17,142,19,122,30,141,25,108,24"
+              shape="poly"
+              data-tooltip="Head: Important for headache-related information"
+            />
+            <area target="" alt=""   href="eyes.html" coords="113,39,135,40,119,40,113,39" shape="poly" data-tooltip="Eyes: Important for Eyes-related information">
+            <area target="" alt="" title="" href="nose.html" coords="127,46,130,51,119,49,123,54" shape="poly" data-tooltip="Nose: Important for Nose-related information">
+            <area target="" alt="" title="" href="mouth.html" coords="119,60,133,60,127,64" shape="poly"data-tooltip="Mouth: Important for Mouth-related information">
+            <area target="" alt="" title="" href="hand.html" coords="66,137,26,296,76,203,78,148,38,298,76,157,31,301,67,156,54,232,72,166,25,278,58,190" shape="poly" data-tooltip="Hand: Important for hand-related information">
+            <area target="" alt="" title="" href="hand.html" coords="182,140,215,298,189,145,227,284,174,163,187,224,192,220,182,165,198,236,177,152,215,276,230,270,206,222,210,236,225,297,241,276,179,200,191,176,184,197,199,246" shape="poly" data-tooltip="Hand: Important for hand-related information">
+            <area target="" alt="" title="" href="stomach.html" coords="91,192,166,227" shape="rect" data-tooltip="Stomach: Important for Stomach-related information">
+            <area target="" alt="" title="" href="knee.html" coords="135,354,159,404" shape="rect" data-tooltip="knee: Important for knee-related information">
+            <area target="" alt="" title="" href="foot.html" coords="95,475,158,506" shape="rect" data-tooltip="foot: Important for foot-related information">
+          </map>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+        <div>
+          <a href="femaleanatomy.html"
+            ><img src="female.jpeg" alt="Female Anatomy"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Anatomy Analysis. All rights reserved. For more information,
+        contact us at
+        <a href="mailto:info@anatomyanalysis.com">info@anatomyanalysis.com</a>.
+      </p>
+    </footer>
+    <script src="analyze.js"></script>
+  </body>
+</html>
