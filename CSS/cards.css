@@ -1,4 +1,4 @@
-div {
+.card_body {
     background-color:#EEEEEE;
     width: 300px;
     border: 15px solid rgb(95, 151, 169);
@@ -6,7 +6,13 @@ div {
     margin: 20px;
     align-items: center;
     text-align: center;
+    border-radius: 24px;
     
+  }
+  .card_body img
+  {
+    width: 140px;
+    height: 140px;
   }
   button{
     color: azure;
