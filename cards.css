@@ -1,0 +1,18 @@
+div {
+    background-color:#EEEEEE;
+    width: 300px;
+    border: 15px solid rgb(95, 151, 169);
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    
+  }
+  button{
+    color: azure;
+    background-color: #192A56;
+    size:20px;
+  }
+  h5{
+    font-size:larger;
+  }
