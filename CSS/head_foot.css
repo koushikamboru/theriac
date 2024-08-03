@@ -1,0 +1,117 @@
+/*----------------------------------------
+            Header Starts
+----------------------------------------*/
+nav
+{
+    background-color: #ffffff;
+}
+.bg_nav
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 0px 167px 0px 167px ;
+    color: black;
+}
+nav a
+{
+    color: black;
+    font-weight:600;
+}
+nav a:hover
+{
+    color: #76C4D8;
+    
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    margin: 0 14px; 
+}
+
+#logo_img
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+#logo_name
+{
+    font-size: 34px;
+}
+
+.nav_pages
+{
+    display: flex;
+    align-items: center;
+}
+
+#login_btn
+{
+    width: 74px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+    color: #00a6ff;
+    border: none;
+    margin: 5px;
+}
+#signup_btn
+{
+    width: 74px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #30abee;
+    color: white;
+    border: none;
+    margin: 5px;
+}
+#login_btn:hover
+{
+    background-color: #30abee;
+    color: white;
+}
+
+/*----------------------------------------
+            Header ends
+----------------------------------------*/
+
+
+
+/*----------------------------------------
+            Footer Start
+----------------------------------------*/
+
+footer
+{
+    background-color: #24373E;
+    color: #ffffff;
+    width: 100%;
+   
+    width: 100%;
+    
+}
+.foot_main
+{
+    display: flex;
+    margin: 0px 167px 0px 167px ;
+}
+
+#copy_info
+{
+    text-align: center;
+    color: #CECACA;
+}
+
+/*----------------------------------------
+            Footer ends
+----------------------------------------*/
