@@ -1,10 +1,3 @@
-const head = document.getElementById('head');
-const head1 = document.getElementById('head1');
-
-console.log(head);
-head.addEventListener("click",()=>{head1.style.display= 'block'})
-
-
 window.onload = function () {
     const pieces = document.getElementsByTagName('svg');
     for (var i = 0; pieces.length; i++) {
@@ -15,3 +8,10 @@ window.onload = function () {
         }
     }
 }
+
+
+const head = document.getElementById('head');
+const head_btn = document.getElementById('head_btn');
+
+console.log(head);
+head.addEventListener("click",()=>{head_btn.style.display= 'block'})
