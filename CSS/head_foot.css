@@ -2,20 +2,23 @@ body {
     line-height: 1.6;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     color: #404040;
     margin: 0;
 }
 
-/* Header */
+/*----------------------------------------
+            Header Starts
+----------------------------------------*/
 #logo_img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
 #logo_name {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 34px;
+    margin-left: 10px;
 }
 
 .nav-link {
@@ -34,6 +37,7 @@ body {
     width: 120px;
     height: 40px;
     border-radius: 4px;
+    margin: 5px;
     background-color: #75c4d8;
     border: none;
     color: white;
@@ -44,7 +48,13 @@ body {
     color: white;
 }
 
-/* Footer */
+/*----------------------------------------
+            Header ends
+----------------------------------------*/
+
+/*----------------------------------------
+            Footer Start
+----------------------------------------*/
 footer {
     background-color: #24373E;
     color: #ffffff;
@@ -61,3 +71,7 @@ footer a:hover {
 #copy_info {
     color: #CECACA;
 }
+
+/*----------------------------------------
+            Footer ends
+----------------------------------------*/
