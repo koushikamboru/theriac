@@ -4,25 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://db.onlinewebfonts.com/c/02c5086e8616653dade6e7cb3a1f0498?family=LTC+Bodoni+175+W01+Regular"
-        rel="stylesheet">
-    <link rel="stylesheet" href="About.css">
-    <title>Document</title>
+    <link href="https://db.onlinewebfonts.com/c/02c5086e8616653dade6e7cb3a1f0498?family=LTC+Bodoni+175+W01+Regular" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/head_foot.css">
+    <link rel="stylesheet" href="./CSS/about.css">
+    <title>About Us - Theriac</title>
 </head>
 
 <body>
-    <div class="main">
-        <div class="nav"></div>
-        <div class="support">
-            <h1>PROFESSIONAL SUPPORT</h1>
-            <h2>FORMAL EMOTIONAL</h2>
-            <h2>WELLNESS</h2>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="./index.html">
+                    <img src="./assets/logo/logo.jpeg" id="logo_img" alt="Theriac Logo">
+                    <h1 class="mb-0 ml-2" id="logo_name">THERIAC</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./analyze.html">Analyze</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary" id="login_btn">Login/Register</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="support-section text-center text-white d-flex flex-column justify-content-center align-items-center" style="  background-image: url(./assets/img/background.jpg);">
+            <h1>Professional Support</h1>
+            <h2>Formal Emotional Wellness</h2>
             <p>Navigate life's challenges with expert guidance</p>
-            <p class="btn">BOOK APPOINTMENT</p>
-        </div>
-        <div class="content">
+            <button class="btn-primary">Book Appointment</button>
+        </section>
+
+        <section class="content-section text-center">
             <h1>Your Path to a Healthier, More Fulfilled Life</h1>
-            <h2>START HERE</h2>
+            <h2>Start Here</h2>
             <p>At SR Psychological Services, we're committed to offering personalized psychotherapy that addresses the
                 <br>
                 <span>unique challenges and aspirations of each client.</span>
@@ -31,37 +65,68 @@
                 <br>
                 <span>unique challenges and aspirations of each client.</span>
             </p>
-            <p>At SR Psychological Services, we're committed to offering personalized psychotherapy that addresses the
-                <br>
-                <span>unique challenges and aspirations of each client.</span>
-            </p>
-            <p>At SR Psychological Services, we're committed to offering personalized psychotherapy that addresses the
-                <br>
-                <span>unique challenges and aspirations of each client.</span>
-            </p>
-            <p>At SR Psychological Services, we're committed to offering personalized psychotherapy that addresses the
-                <br>
-                <span>unique challenges and aspirations of each client.</span>
-            </p>
-            <p>At SR Psychological Services, we're committed to offering personalized psychotherapy that addresses the
-                <br>
-                <span>unique challenges and aspirations of each client.</span>
-            </p>
-            <img src="./images/Group-80.jpg" alt="">
-        </div>
-        <div class="services">
+            <img src="./assets/img/Group-80.jpg" class="img-fluid" alt="Theriac Services">
+        </section>
+
+        <section class="services-section text-center">
             <h1>Discover Our Services <span>& What We Offer</span></h1>
-            <p class="btn">BOOK APPOINTMENT</p>
-        </div>
-        <div class="hand">
-            <img src="./images/Hand.png">
-            <div class="cont">
+            <button class="btn-primary">Book Appointment</button>
+        </section>
+
+        <section class="hand-section d-flex flex-column flex-md-row align-items-center justify-content-around">
+            <img src="./assets/img/Hand.png" class="img-fluid" alt="Hand Image">
+            <div class="hand-content text-center">
                 <h2>We're Here for You</h2>
                 <p>Whether you're seeking support for an acute situation, ready to take a new direction in life, or
                     looking for a transformative experience, we are here to guide you towards achieving your goals.</p>
             </div>
+        </section>
+    </main>
+
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a class="navbar-brand d-flex align-items-center" href="./index.html">
+                        <img src="./assets/logo/logo.jpeg" id="logo_img" alt="Theriac Logo">
+                        <h1 class="mb-0 ml-2" id="logo_name">THERIAC</h1>
+                    </a>
+                    <p>THERIAC is a Health and Wellness Hub that provides information on medicine based on Ayurveda,
+                        Home Remedies, Physical & Mental Activities, Food Habits, and Personal Hygiene.</p>
+                </div>
+                <div class="col-md-3">
+                    <h2>Quick Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html" class="text-white">Home</a></li>
+                        <li><a href="./about.html" class="text-white">About Us</a></li>
+                        <li><a href="./analyze.html" class="text-white">Analyze</a></li>
+                        <li><a href="./contact.html" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Social</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="" class="text-white"><img src="./assets/icons/instagram.png" alt="">Instagram</a></li>
+                        <li><a href="" class="text-white"><img src="./assets/icons/youtube.png" alt="">YouTube</a></li>
+                        <li><a href="" class="text-white"><img src="./assets/icons/facebook.png" alt="">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Get in Touch</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+917780239794" class="text-white"><img src="./assets/icons/phone.png" alt="">+91 7780239794</a></li>
+                        <li><a href="mailto:theriac@gmail.com" class="text-white"><img src="./assets/icons/mail.png" alt="">theriac@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <p class="text-center mb-0">Copyright © 2024 THERIAC | All Rights Reserved | Terms and Conditions | Privacy Policy</p>
         </div>
-    </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

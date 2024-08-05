@@ -1,0 +1,154 @@
+@font-face {
+    font-family: sans;
+    src: url(./font/Open_Sans/static/OpenSans_Condensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: ltc;
+    src: url(./font/Arapey/Arapey-Regular.ttf);
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------
+            Main Section Styling
+----------------------------------------*/
+
+.support {
+    width: 100%;
+    height: 40vh;
+    background-image: url(./assets/img/background.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.support h1 {
+    font-weight: 100;
+    font-family: sans;
+    letter-spacing: .3rem;
+}
+
+.support h2 {
+    letter-spacing: 2px;
+    font-family: ltc;
+}
+
+.support p {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn {
+    font-size: 17px;
+    margin-top: 20px;
+    background-color: #76C4D8;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 60px 15px;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: ltc;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.content h2 {
+    color: #76c4d8;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.content p {
+    width: 80%;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.services {
+    width: 100%;
+    height: 30vh;
+    background-color: #E3F0FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.services span {
+    color: #76C4D8;
+}
+
+.hand {
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hand .cont {
+    max-width: 500px;
+}
+
+.hand .cont h2 {
+    color: #76C4D8;
+    font-size: 40px;
+}
+
+/* Responsive styling */
+
+@media (max-width: 768px) {
+    .support h1, .support h2, .support p {
+        font-size: 20px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content h2 {
+        font-size: 40px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .hand .cont h2 {
+        font-size: 30px;
+    }
+}
