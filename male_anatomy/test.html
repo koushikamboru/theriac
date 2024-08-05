@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Body SVG Interaction</title>
+    <style>
+        .human-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        svg {
+            margin: 10px;
+            cursor: pointer;
+        }
+        .buttons {
+            display: none;
+            margin-top: 10px;
+        }
+        .buttons button {
+            margin: 5px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="human-body">
+        <svg id="head" data-position="head" class="head" xmlns="http://www.w3.org/2000/svg" width="56.594" height="95.031" viewBox="0 0 56.594 95.031"><path d="M15.92 68.5l8.8 12.546 3.97 13.984-9.254-7.38-4.622-15.848zm27.1 0l-8.8 12.546-3.976 13.988 9.254-7.38 4.622-15.848zm6.11-27.775l.108-11.775-21.16-14.742L8.123 26.133 8.09 40.19l-3.24.215 1.462 9.732 5.208 1.81 2.36 11.63 9.72 11.018 10.856-.324 9.56-10.37 1.918-11.952 5.207-1.81 1.342-9.517zm-43.085-1.84l-.257-13.82L28.226 11.9l23.618 15.755-.216 10.37 4.976-17.085L42.556 2.376 25.49 0 10.803 3.673.002 24.415z"/></svg>
+        <div class="buttons" id="head-buttons">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+            <button>Button 4</button>
+        </div>
+
+        <svg id="shoulder" data-position="shoulder" class="shoulder" xmlns="http://www.w3.org/2000/svg" width="109.532" height="46.594" viewBox="0 0 109.532 46.594"><path d="M38.244-.004l1.98 9.232-11.653 2.857-7.474-2.637zm33.032 0l-1.98 9.232 11.653 2.857 7.474-2.637zm21.238 10.54l4.044-2.187 12.656 14 .07 5.33S92.76 10.66 92.515 10.535zm-1.285.58c-.008.28 17.762 18.922 17.762 18.922l.537 16.557-6.157-10.55L91.5 30.988 83.148 15.6zm-74.224-.58L12.962 8.35l-12.656 14-.062 5.325s16.52-17.015 16.764-17.14zm1.285.58C18.3 11.396.528 30.038.528 30.038L-.01 46.595l6.157-10.55 11.87-5.056L26.374 15.6z"/></svg>
+        <div class="buttons" id="shoulder-buttons">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+            <button>Button 4</button>
+        </div>
+
+        <svg id="arm" data-position="arm" class="arm" xmlns="http://www.w3.org/2000/svg" width="156.344" height="119.25" viewBox="0 0 156.344 119.25"><path d="M21.12 56.5a1.678 1.678 0 0 1-.427.33l.935 8.224 12.977-13.89 1.2-8.958A168.2 168.2 0 0 0 21.12 56.5zm1.387 12.522l-18.07 48.91 5.757 1.333 19.125-39.44 3.518-22.047zm-5.278-18.96l2.638 18.74-17.2 46.023L.01 113.05l6.644-35.518zm118.015 6.44a1.678 1.678 0 0 0 .426.33l-.934 8.222-12.977-13.89-1.2-8.958A168.2 168.2 0 0 1 135.24 56.5zm-1.39 12.52l18.073 48.91-5.758 1.333-19.132-39.44-3.52-22.05zm5.28-18.96l-2.64 18.74 17.2 46.023 2.658-1.775-6.643-35.518zm-103.1-12.323a1.78 1.78 0 0 1 .407-.24l3.666-27.345L33.07.015l-7.258 10.58-6.16 37.04.566 4.973a151.447 151.447 0 0 1 15.808-14.87zm84.3 0a1.824 1.824 0 0 0-.407-.24l-3.666-27.345L123.3.015l7.258 10.58 6.16 37.04-.566 4.973a151.447 151.447 0 0 0-15.822-14.87zM22.288 8.832l-3.3 35.276-2.2-26.238zm111.79 0l3.3 35.276 2.2-26.238z"/></svg>
+        <div class="buttons" id="arm-buttons">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+            <button>Button 4</button>
+        </div>
+
+        <svg id="chest" data-position="chest" class="chest" xmlns="http://www.w3.org/2000/svg" width="86.594" height="45.063" viewBox="0 0 86.594 45.063"><path d="M19.32 0l-9.225 16.488-10.1 5.056 6.15 4.836 4.832 14.07 11.2 4.616 17.85-8.828-4.452-34.7zm47.934 0l9.225 16.488 10.1 5.056-6.15 4.836-4.833 14.07-11.2 4.616-17.844-8.828 4.45-34.7z"/></svg>
+        <div class="buttons" id="chest-buttons">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+            <button>Button 4</button>
+        </div>
+
+        <svg id="stomach" data-position="stomach" class="stomach" xmlns="http://www.w3.org/2000/svg" width="75.25" height="107.594" viewBox="0 0 75.25 107.594"><path d="M19.25 7.49l16.6-7.5-.5 12.16-14.943 7.662zm-10.322 8.9l6.9 3.848-.8-9.116zm5.617-8.732L1.32 2.15 6.3 15.6zm-8.17 9.267l9.015 5.514 1.54 11.028-8.795-5.735zm15.53 5.89l.332 8.662 12.286-2.665.664-11.316zm-14.89 6.58L4.59 39.612l9.867-8.113zm-8.48 14.37l8.808-3.883L3.97 32.96zm12.034-4.56l5.18-4.257 3.207 10.07zm14.144-8.85l-7.426 9.825 7.97 5.94zm-16.12 10.448L.002 55.9l3.973-17.918zm-.37 12.84L.007 73.408 2.958 62.75zm12.65-7.206l.347 9.054-8.093 11.477zm5.9 2.005l-5.425 9.516 4.536-17.406zm4.616 2.995l-4.144 17.278-4.52 7.924 3.184 10.427 6.616 3.65 10.51-7.29L27.812 82.87zm-6.063 2.405l-9.66 14.84 3.86-13.253zm-11.144 6.77l-2.677 12.79 8.66-10.132zm-4.91 7.36l-4.292 6.58 10.016-1.32zm7.032 10.31l-6.68 1.473 6.005-4.565zm5.745-1.19l-5.02 4.174 7.506 2.355zm6.553 4.617l-6.616-3.65 8.793-4.568z"/></svg>
+        <div class="buttons" id="stomach-buttons">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+            <button>Button 4</button>
+        </div>
+
+        <svg id="legs" data-position="legs" class="legs" xmlns="http://www.w3.org/2000/svg" width="107.25" height="162.063" viewBox="0 0 107.25 162.063"><path d="M13.8.004L8.07 49.86l-.53 53.86 6.75 11.296 7.973 43.468 12.644-2.07 1.014-47.37-6.224-6.798 1.964-13.036L43.24 71.03 47.65 0zm76.14 0L99.18 49.86l.533 53.86-6.75 11.296-7.973 43.468-12.644-2.07-1.014-47.37 6.224-6.798-1.964-13.036-11.22-27.26L59.594 0z"/></svg>
+        <div class="buttons" id="legs-buttons">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+            <button>Button 4</button>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const svgs = document.querySelectorAll('.human-body svg');
+            svgs.forEach(svg => {
+                svg.addEventListener('click', function (event) {
+                    const position = svg.getAttribute('data-position');
+                    const buttonContainer = document.getElementById(`${position}-buttons`);
+                    const allButtonContainers = document.querySelectorAll('.buttons');
+                    allButtonContainers.forEach(container => {
+                        if (container !== buttonContainer) {
+                            container.style.display = 'none';
+                        }
+                    });
+                    buttonContainer.style.display = buttonContainer.style.display === 'block' ? 'none' : 'block';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
