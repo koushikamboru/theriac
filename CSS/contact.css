@@ -198,3 +198,70 @@
     button:hover {
       opacity: 0.8;
     }
+#BOT-SEC{
+  background-color: #f2f2f2;
+  display: block;
+}
+.bot-sec{
+  width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+}
+#BOT-SEC .bottom{
+  display: flex;
+}
+.bot-sec .bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.bottom{
+  padding-top: 75px;
+  padding-right: 20px;
+  padding-bottom: 75px;
+  padding-left: 20px;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  min-height: inherit;
+}
+.bottom-inner{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width:991px){
+  #BOTTOM-INNER .bot-div{
+    width: 100% !important;
+  }
+}
+#BOT-DIV1{
+  width: 50%;
+  justify-content: center;
+}
+.bottom-inner .bot-div{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.bot-div{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media (max-width: 479px) {
+  #BOT-DIV2 {
+      text-align: left;
+      align-items: center;
+  }
+}
+#BOT-DIV2{
+  width: 50%;
+  justify-content: center;
+}
