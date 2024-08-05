@@ -1,3 +1,4 @@
+
 body
 {
     line-height: 1.6;
@@ -6,4 +7,218 @@ body
     font-weight: 400;
     color: #404040;
     margin: 0%;
+}
+#section-2-12 {
+    background-image: url(http://srpsychologicalservices.com/wp-content/uploads/2024/06/Mask-Group-11.png);
+    background-size: auto;
+    height: 600px;
+    background-color: #d2e1f7;
+    background-repeat: no-repeat;
+    background-position: 30% 100%;
+}
+.ct-new-columns {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#div_block-6-12 {
+    width: 50.00%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+#headline-9-12 {
+    text-align: center;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+#headline-10-12 {
+    text-align: center;
+    text-transform: uppercase;
+}
+#text_block-12-12 {
+    font-size: 20px;
+}
+#link_button-13-12 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#div_block-7-12 {
+    width: 50%;
+    padding-right: 0px;
+}
+.ct-image {
+    max-width: 100%;
+}
+
+
+
+#BOT-SEC{
+    background-color:#e3f0f9;
+    display: block;
+  }
+  .bot-sec{
+    width: 100%;
+      background-size: cover;
+      background-repeat: repeat;
+  }
+  #BOT-SEC .bottom{
+    display: flex;
+  }
+  .bot-sec .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .bottom{
+    padding-top: 75px;
+    padding-right: 20px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    min-height: inherit;
+  }
+  .bottom-inner{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  @media (max-width:991px){
+    #BOTTOM-INNER .bot-div{
+      width: 100% !important;
+    }
+  }
+  #BOT-DIV1{
+    width: 50%;
+    justify-content: center;
+  }
+  .bottom-inner .bot-div{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .bot-div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  @media (max-width: 479px) {
+    #BOT-DIV2 {
+        text-align: left;
+        align-items: center;
+    }
+  }
+  #BOT-DIV2{
+    width: 50%;
+    justify-content: center;
+  }
+  
+  .ct-section {
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.ct-section>.ct-section-inner-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ct-new-columns {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#div_block-29-12 {
+    width: 33.33%;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+#-ou_dual_color_text-32-12 {
+    html-tag: h4;
+    useCustomTag: false;
+    text-align: center;
+    width: 80%;
+}
+#text_block-37-12 {
+    text-align: center;
+    width: 79%;
+}
+#div_block-30-12 {
+    width: 33.33%;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+#image-40-12 {
+    height: 200px;
+}
+#-ou_dual_color_text-44-12 {
+    html-tag: h4;
+    useCustomTag: false;
+    text-align: center;
+    width: 80%;
+}
+#-ou_dual_color_text-44-12 .oudct-text1 {
+    font-family: 'Open Sans';
+    color: #141414;
+    text-transform: uppercase;
+}
+#-ou_dual_color_text-44-12 .oudct-text2 {
+    font-family: 'ltc-bodoni-175';
+    color: #141414;
+    text-transform: uppercase;
+}
+#text_block-48-12 {
+    text-align: center;
+    width: 79%;
+}
+#div_block-31-12 {
+    width: 33.34%;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+#image-42-12 {
+    height: 200px;
+}
+#-ou_dual_color_text-46-12 {
+    html-tag: h4;
+    useCustomTag: false;
+    text-align: center;
+    width: 70%;
+}
+#-ou_dual_color_text-46-12 .oudct-text1 {
+    font-family: 'Open Sans';
+    color: #141414;
+    text-transform: uppercase;
+}
+#-ou_dual_color_text-46-12 .oudct-text2 {
+    font-family: 'ltc-bodoni-175';
+    color: #141414;
+    text-transform: uppercase;
+}
+#text_block-50-12 {
+    text-align: center;
+    width: 79%;
 }
