@@ -7,3 +7,20 @@ body
     color: #404040;
     margin: 0%;
 }
+main
+{
+    text-align: center;
+    margin: 0px 167px 0px 167px;
+}
+
+.anatimg
+{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
+.anatimg img
+{
+    height: 330px;
+}
