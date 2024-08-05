@@ -1,11 +1,4 @@
-body {
-    line-height: 1.6;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #404040;
-    margin: 0;
-}
+
 
 /*----------------------------------------
             Header Starts
@@ -34,13 +27,14 @@ body {
 }
 
 #login_btn {
-    width: 120px;
+    width: auto;
     height: 40px;
     border-radius: 4px;
     margin: 5px;
     background-color: #75c4d8;
     border: none;
     color: white;
+    margin-left: 100px;
 }
 
 #login_btn:hover {
@@ -58,6 +52,11 @@ body {
 footer {
     background-color: #24373E;
     color: #ffffff;
+    padding: 20px 0;
+}
+
+footer #logo_name {
+    color: #ffffff !important;
 }
 
 footer a {
@@ -70,7 +69,33 @@ footer a:hover {
 
 #copy_info {
     color: #CECACA;
+    margin-top: 20px;
 }
+.foot_adds
+{
+    
+    padding-top: 34px;
+}
+
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    justify-content: space-between;
+}
+
+footer .col-md-3 {
+    flex: 1;
+    min-width: 200px; 
+    margin-bottom: 20px; 
+}
+
+footer .navbar-brand,
+footer .col-md-3 h2 {
+    margin-bottom: 15px;
+}
+
 
 /*----------------------------------------
             Footer ends
