@@ -1,117 +1,63 @@
-/*----------------------------------------
-            Header Starts
-----------------------------------------*/
-nav
-{
-    background-color: #ffffff;
-}
-.bg_nav
-{
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-    margin: 0px 167px 0px 167px ;
-    color: black;
-}
-nav a
-{
-    color: black;
-    font-weight:600;
-}
-nav a:hover
-{
-    color: #76C4D8;
-    
-}
-ul
-{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-ul li {
-    margin: 0 14px; 
+body {
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #404040;
+    margin: 0;
 }
 
-#logo_img
-{
-    width: 80px;
-    height: 80px;
+/* Header */
+#logo_img {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
-.logo
-{
-    display: flex;
-    align-items: center;
-}
-#logo_name
-{
-    font-size: 34px;
+
+#logo_name {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.nav_pages
-{
-    display: flex;
-    align-items: center;
+.nav-link {
+    font-weight: 600;
+    color: black !important;
+    padding: 10px 15px;
 }
 
-#login_btn
-{
-    width: 74px;
+.nav-link:hover, .nav-link.active {
+    color: #76C4D8 !important;
+    background-color: #f8f9fa !important;
+    border-radius: 5px;
+}
+
+#login_btn {
+    width: 120px;
     height: 40px;
     border-radius: 4px;
-    background-color: white;
-    color: #00a6ff;
+    background-color: #75c4d8;
     border: none;
-    margin: 5px;
-}
-#signup_btn
-{
-    width: 74px;
-    height: 40px;
-    border-radius: 4px;
-    background-color: #30abee;
     color: white;
-    border: none;
-    margin: 5px;
 }
-#login_btn:hover
-{
+
+#login_btn:hover {
     background-color: #30abee;
     color: white;
 }
 
-/*----------------------------------------
-            Header ends
-----------------------------------------*/
-
-
-
-/*----------------------------------------
-            Footer Start
-----------------------------------------*/
-
-footer
-{
+/* Footer */
+footer {
     background-color: #24373E;
     color: #ffffff;
-    width: 100%;
-   
-    width: 100%;
-    
-}
-.foot_main
-{
-    display: flex;
-    margin: 0px 167px 0px 167px ;
 }
 
-#copy_info
-{
-    text-align: center;
+footer a {
     color: #CECACA;
 }
 
-/*----------------------------------------
-            Footer ends
-----------------------------------------*/
+footer a:hover {
+    color: #76C4D8;
+}
+
+#copy_info {
+    color: #CECACA;
+}
