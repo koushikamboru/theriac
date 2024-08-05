@@ -20,7 +20,25 @@ main
     align-items: center;
     justify-content: center;
 }
-.anatimg img
-{
+
+
+.anatimg img {
     height: 330px;
+    transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 24px;
+    margin-bottom: 44px;
+}
+
+.anatimg img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    opacity: 0.8; /* Make the image slightly transparent */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.anatimg img {
+    transform: scale(0.95); /* Slightly shrink the image when clicked */
+    opacity: 1; /* Make the image fully opaque */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Revert shadow when clicked */
 }
