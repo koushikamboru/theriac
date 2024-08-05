@@ -1,82 +1,43 @@
+
+
 /*----------------------------------------
             Header Starts
 ----------------------------------------*/
-nav
-{
-    background-color: #ffffff;
-}
-.bg_nav
-{
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-    margin: 0px 167px 0px 167px ;
-    color: black;
-}
-nav a
-{
-    color: black;
-    font-weight:600;
-}
-nav a:hover
-{
-    color: #76C4D8;
-    
-}
-ul
-{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-ul li {
-    margin: 0 14px; 
-}
-
-#logo_img
-{
+#logo_img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
-.logo
-{
-    display: flex;
-    align-items: center;
-}
-#logo_name
-{
+
+#logo_name {
     font-size: 34px;
+    margin-left: 10px;
 }
 
-.nav_pages
-{
-    display: flex;
-    align-items: center;
+.nav-link {
+    font-weight: 600;
+    color: black !important;
+    padding: 10px 15px;
 }
 
-#login_btn
-{
-    width: 74px;
+.nav-link:hover, .nav-link.active {
+    color: #76C4D8 !important;
+    background-color: #f8f9fa !important;
+    border-radius: 5px;
+}
+
+#login_btn {
+    width: auto;
     height: 40px;
     border-radius: 4px;
-    background-color: white;
-    color: #00a6ff;
-    border: none;
     margin: 5px;
-}
-#signup_btn
-{
-    width: 74px;
-    height: 40px;
-    border-radius: 4px;
-    background-color: #30abee;
+    background-color: #75c4d8;
+    border: none;
     color: white;
-    border: none;
-    margin: 5px;
+    margin-left: 100px;
 }
-#login_btn:hover
-{
+
+#login_btn:hover {
     background-color: #30abee;
     color: white;
 }
@@ -85,32 +46,52 @@ ul li {
             Header ends
 ----------------------------------------*/
 
-
-
 /*----------------------------------------
             Footer Start
 ----------------------------------------*/
-
-footer
-{
+footer {
     background-color: #24373E;
     color: #ffffff;
-    width: 100%;
-   
-    width: 100%;
-    
-}
-.foot_main
-{
-    display: flex;
-    margin: 0px 167px 0px 167px ;
+    padding: 20px 0;
 }
 
-#copy_info
-{
-    text-align: center;
+footer #logo_name {
+    color: #ffffff !important;
+}
+
+footer a {
     color: #CECACA;
 }
+
+footer a:hover {
+    color: #76C4D8;
+}
+
+#copy_info {
+    color: #CECACA;
+    margin-top: 20px;
+}
+.foot_adds
+{
+   
+    padding-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    justify-content: space-between;
+    flex: 1;
+    min-width: 200px; 
+    margin-bottom: 20px; 
+}
+
+
+
+
+footer .navbar-brand,
+footer .col-md-3 h2 {
+    margin-bottom: 15px;
+}
+
 
 /*----------------------------------------
             Footer ends
