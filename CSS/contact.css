@@ -1,0 +1,267 @@
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    #IW{
+        background-image: url(http://srpsychologicalservices.com/wp-content/uploads/2024/06/AdobeStock_471932571.jpg);
+        background-repeat: no-repeat;
+        text-align: left;
+        height: 290px;
+    }
+    .iw{
+      width: 100%;
+      background-size: cover;
+      background-repeat: repeat;
+    }
+    #IW .inner-wrap{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .iw .inner-wrap{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .inner-wrap{
+      padding-top: 75px;
+      padding-right: 20px;
+      padding-bottom: 75px;
+      padding-left: 20px;
+      max-width: 1120px;
+    }
+    .inner-wrap{
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
+      min-height: inherit;
+    }
+    @media(max-width:479px){
+      #INNER-WRAP{
+        font-size:24px;
+        width: 95%;
+        text-align: center;
+      }
+    }
+    #INNER-WRAP{
+      text-align: center;
+      font-size: 30px;
+      width: 51%;
+    }
+    [data-aos^=fade][data-aos^=fade].aos-animate {
+      opacity: 1;
+      transform: translateZ(0);
+    }
+    [data-aos][data-aos][data-aos-duration="600"]{
+      transition-duration: .6s;
+    }
+    body[data-aos-easing=ease] [data-aos]
+    {
+      transition-timing-function: ease;
+    }
+
+    .cont{
+      width: 100%;
+      background-size: cover;
+      background-repeat: repeat;
+    }
+    .cont .container{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .container{
+      padding-top: 75px;
+      padding-right: 20px;
+      padding-bottom: 75px;
+      padding-left: 20px;
+      max-width: 1120px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
+      min-height: inherit;
+    }
+    
+    .inner-container{
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    @media(max-width:991px){
+      #INNER-CONTAINER .section{
+        width:100%;
+      }
+    }
+    #section1{
+      width: 50%;
+    }
+    #section2{
+      width: 50%;
+    }
+    .inner-container .section{
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+    }
+    .section{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .section h2 {
+      margin-bottom: 10px;
+      color: #76c4d8;
+    }
+    
+
+    p {
+      margin-bottom: 16px 0px;
+      color: #040404;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 20px 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      border-color: #24778d;
+      box-sizing: border-box;
+    }
+    .address-container {
+      display: flex;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+  }
+
+  .address-icon {
+      margin-right: 10px;
+      color: #2c3e50; 
+      font-size: 24px; 
+  }
+
+  .contact-container {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    color: #2c3e50; 
+    font-size: 24px; 
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.email-icon {
+  margin-right: 10px;
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+.email-link {
+  text-decoration: none; 
+  color: inherit;
+}
+
+    button {
+      padding: 10px 20px;
+      background-color: #76c4d5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+#BOT-SEC{
+  background-color: #f2f2f2;
+  display: block;
+}
+.bot-sec{
+  width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+}
+#BOT-SEC .bottom{
+  display: flex;
+}
+.bot-sec .bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.bottom{
+  padding-top: 75px;
+  padding-right: 20px;
+  padding-bottom: 75px;
+  padding-left: 20px;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  min-height: inherit;
+}
+.bottom-inner{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width:991px){
+  #BOTTOM-INNER .bot-div{
+    width: 100% !important;
+  }
+}
+#BOT-DIV1{
+  width: 50%;
+  justify-content: center;
+}
+.bottom-inner .bot-div{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.bot-div{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media (max-width: 479px) {
+  #BOT-DIV2 {
+      text-align: left;
+      align-items: center;
+  }
+}
+#BOT-DIV2{
+  width: 50%;
+  justify-content: center;
+}
