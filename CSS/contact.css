@@ -265,3 +265,68 @@
   width: 50%;
   justify-content: center;
 }
+
+/* Header Styles */
+header {
+  background-color: #f8f9fa; /* Light background color for header */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+#login_btn {
+  margin-left: 10px; /* Add spacing between the button and menu items */
+}
+
+/* Ensure logo and name alignment is correct */
+.navbar-brand img {
+  height: 40px; /* Adjust logo height as needed */
+}
+
+#logo_name {
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40; /* Dark background color for footer */
+  color: #ffffff; /* White text color */
+}
+
+.footer p {
+  color: #ffffff; /* Ensure footer paragraph text is white */
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.foot_adds ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.foot_adds ul li {
+  margin-bottom: 10px;
+}
