@@ -1,0 +1,120 @@
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    #IW{
+        background-image: url(http://srpsychologicalservices.com/wp-content/uploads/2024/06/AdobeStock_471932571.jpg);
+        background-repeat: no-repeat;
+        text-align: left;
+        height: 290px;
+    }
+    .iw{
+      width: 100%;
+      background-size: cover;
+      background-repeat: repeat;
+    }
+    #IW .inner-wrap{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .iw .inner-wrap{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .inner-wrap{
+      padding-top: 75px;
+      padding-right: 20px;
+      padding-bottom: 75px;
+      padding-left: 20px;
+      max-width: 1120px;
+    }
+    .inner-wrap{
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
+      min-height: inherit;
+    }
+    @media(max-width:479px){
+      #INNER-WRAP{
+        font-size:24px;
+        width: 95%;
+        text-align: center;
+      }
+    }
+    #INNER-WRAP{
+      text-align: center;
+      font-size: 30px;
+      width: 51%;
+    }
+    [data-aos^=fade][data-aos^=fade].aos-animate {
+      opacity: 1;
+      transform: translateZ(0);
+    }
+    [data-aos][data-aos][data-aos-duration="600"]{
+      transition-duration: .6s;
+    }
+    body[data-aos-easing=ease] [data-aos]
+    {
+      transition-timing-function: ease;
+    }
+
+    
+    .container {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    div {
+        display: block;
+        unicode-bidi: isolate;
+    }
+
+    .section {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .section h2 {
+      margin-bottom: 10px;
+      color: #76c4d8;
+
+    }
+    
+
+    p {
+      margin-bottom: 16px 0px;
+      color: #040404;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="phone"],
+    textarea {
+      width: 100%;
+      padding: 20px 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      border-color: #24778d;
+      box-sizing: border-box;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #76c4d5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
