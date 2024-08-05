@@ -8,51 +8,64 @@
     src: url(./font/Arapey/Arapey-Regular.ttf);
 }
 
-
-
-body {
-    font-family: 'Open Sans', sans-serif;
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 30px 0;
 }
 
 /*----------------------------------------
             Main Section Styling
 ----------------------------------------*/
 
-.support {
+.support-section {
     width: 100%;
     height: 40vh;
-    background-image: url(./assets/img/background.jpg);
+ 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
-.support h1 {
-    font-weight: 100;
+.support-section h1, .support-section h2 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.support-section h1 {
     font-family: sans;
     letter-spacing: .3rem;
 }
 
-.support h2 {
-    letter-spacing: 2px;
+.support-section h2 {
     font-family: ltc;
+    letter-spacing: 2px;
 }
 
-.support p {
+.support-section p {
     padding-top: 5px;
     font-size: 20px;
     font-weight: 400;
 }
 
-.btn {
+.btn-primary {
     font-size: 17px;
     margin-top: 20px;
     background-color: #76C4D8;
@@ -60,29 +73,31 @@ body {
     padding: 15px 50px;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
 }
 
-.content {
+.content-section {
     padding: 60px 15px;
     text-align: center;
 }
 
-.content h1 {
+.content-section h1 {
     font-family: ltc;
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.content h2 {
+.content-section h2 {
     color: #76c4d8;
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.content p {
+.content-section p {
     width: 80%;
+    margin: 0 auto;
     padding-top: 20px;
     font-size: 20px;
 }
@@ -92,7 +107,7 @@ body {
     height: auto;
 }
 
-.services {
+.services-section {
     width: 100%;
     height: 30vh;
     background-color: #E3F0FA;
@@ -103,11 +118,11 @@ body {
     text-align: center;
 }
 
-.services span {
+.services-section span {
     color: #76C4D8;
 }
 
-.hand {
+.hand-section {
     padding: 30px 15px;
     display: flex;
     flex-direction: column;
@@ -115,16 +130,17 @@ body {
     justify-content: center;
 }
 
-.hand img {
+.hand-section img {
     max-width: 100%;
     height: auto;
 }
 
-.hand .cont {
+.hand-content {
     max-width: 500px;
+    text-align: center;
 }
 
-.hand .cont h2 {
+.hand-content h2 {
     color: #76C4D8;
     font-size: 40px;
 }
@@ -132,23 +148,23 @@ body {
 /* Responsive styling */
 
 @media (max-width: 768px) {
-    .support h1, .support h2, .support p {
-        font-size: 20px;
-    }
-
-    .content h1 {
-        font-size: 40px;
-    }
-
-    .content h2 {
-        font-size: 40px;
-    }
-
-    .content p {
+    .support-section h1, .support-section h2, .support-section p {
         font-size: 18px;
     }
 
-    .hand .cont h2 {
+    .content-section h1 {
+        font-size: 40px;
+    }
+
+    .content-section h2 {
+        font-size: 40px;
+    }
+
+    .content-section p {
+        font-size: 18px;
+    }
+
+    .hand-content h2 {
         font-size: 30px;
     }
 }
