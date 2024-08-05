@@ -64,27 +64,64 @@
       transition-timing-function: ease;
     }
 
-    
-    .container {
+    .cont{
+      width: 100%;
+      background-size: cover;
+      background-repeat: repeat;
+    }
+    .cont .container{
       display: flex;
-      justify-content: space-around;
-      padding: 20px;
-    }
-    div {
-        display: block;
-        unicode-bidi: isolate;
+      flex-direction: column;
+      align-items: flex-start;
     }
 
-    .section {
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
+    .container{
+      padding-top: 75px;
+      padding-right: 20px;
+      padding-bottom: 75px;
+      padding-left: 20px;
+      max-width: 1120px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
+      min-height: inherit;
+    }
+    
+    .inner-container{
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
     }
 
+    @media(max-width:991px){
+      #INNER-CONTAINER .section{
+        width:100%;
+      }
+    }
+    #section1{
+      width: 50%;
+    }
+    #section2{
+      width: 50%;
+    }
+    .inner-container .section{
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+    }
+    .section{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: flex-start;
+    }
     .section h2 {
       margin-bottom: 10px;
       color: #76c4d8;
-
     }
     
 
@@ -95,7 +132,7 @@
 
     input[type="text"],
     input[type="email"],
-    input[type="phone"],
+    input[type="tel"],
     textarea {
       width: 100%;
       padding: 20px 10px;
@@ -105,6 +142,49 @@
       border-color: #24778d;
       box-sizing: border-box;
     }
+    .address-container {
+      display: flex;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+  }
+
+  .address-icon {
+      margin-right: 10px;
+      color: #2c3e50; 
+      font-size: 24px; 
+  }
+
+  .contact-container {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    color: #2c3e50; 
+    font-size: 24px; 
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.email-icon {
+  margin-right: 10px;
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+.email-link {
+  text-decoration: none; 
+  color: inherit;
+}
 
     button {
       padding: 10px 20px;
